@@ -3,193 +3,208 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bienvenidos a mi mundo</title>  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #FFE5EC; /* Lavender Blush */
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #FFB3C6; /* Pastel Pink */
-      color: #333;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      margin: 20px auto;
-      width: 80%;
-    }
-    h2 {
-      color: #FB6F92; /* Watermelon */
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    form {
-      background-color: #FFB3C6;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 90%;
-      max-width: 500px;
-      margin: 20px auto;
-      border: 2px solid #FB6F92;
-    }
-    label {
-      display: block;
-      margin-top: 10px;
-      color: #333;
-    }
-    input[type="text"], select {
-      width: 100%;
-      padding: 8px;
-      margin-top: 5px;
-      margin-bottom: 10px;
-      border-radius: 4px;
-      border: 1px solid #ccc;
-    }
-    input[type="submit"] {
-      background-color: #FB6F92;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    input[type="submit"]:hover {
-      background-color: #FF8FAB;
-    }
-    footer {
-      background-color: #FFB3C6;
-      text-align: center;
-      padding: 10px;
-      margin-top: 40px;
-    }
-  </style>
+<title>Bienvenidos a mi mundo</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFE5EC;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #FFB3C6;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  .box {
+    background-color: #FFC2D1;
+    border: 2px solid #FB6F92;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #FB6F92;
+    margin-top: 0;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  form {
+    background-color: #FFE5EC;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #FB6F92;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #FB6F92;
+  }
+  input[type="submit"] {
+    background-color: #FB6F92;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  input[type="submit"]:hover {
+    background-color: #FF8FAB;
+  }
+  .amigo-card {
+    background-color: #FFE5EC;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #FB6F92;
+  }
+  footer {
+    background-color: #FFB3C6;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
 </head>
 <body>
   <header>
-<h1 align="center">Nicole Brigitte Rodriguez Alvarez</h1>
-      <p>Ingeniería Industrial - Universidad Católica San Pablo</p>
+    <h1>Nicole Brigitte Rodriguez Alvarez</h1>
+    <p>Ingeniería Industrial - Universidad Católica San Pablo</p>
     <p><em>Confianza, liderazgo y tecnología para construir un futuro mejor.</em></p>
-</header>
+  </header>
 
   <section>
-    <h2>Sobre mí</h2>
-    <p>
-      Soy estudiante de Ingeniería Industrial y actualmente curso el tercer semestre de la carrera.
-      Conforme avanzo, me doy cuenta de que me apasiona mucho lo que estudio y estoy muy feliz con la decisión que tomé.
-      Me interesa todo lo relacionado con los procesos industriales y el diseño de plantas, porque creo que son áreas donde puedo ayudar
-      a que las empresas trabajen mejor y de forma más eficiente.
-      Me considero una persona responsable, con muchas ganas de aprender y de crecer tanto profesional como personalmente.
-      Espero poder especializarme en lo que me gusta y dejar una huella positiva en todo lo que haga.
-    </p>
+    <div class="box">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy estudiante de Ingeniería Industrial y actualmente curso el tercer semestre de la carrera.
+        Conforme avanzo, me doy cuenta de que me apasiona mucho lo que estudio y estoy muy feliz con la decisión que tomé.
+        Me interesa todo lo relacionado con los procesos industriales y el diseño de plantas, porque creo que son áreas donde puedo ayudar
+        a que las empresas trabajen mejor y de forma más eficiente.
+        Me considero una persona responsable, con muchas ganas de aprender y de crecer tanto profesional como personalmente.
+        Espero poder especializarme en lo que me gusta y dejar una huella positiva en todo lo que haga.
+      </p>
+    </div>
 
-    <h2>Cursos universitarios relevantes</h2>
-    <ul>
-      <li><strong>Cálculo I</strong> – Prof. Meyber Yuliana Vargas Maquera de Nuñez<br>
-      <em>Estudio de funciones, límites, derivadas e integrales aplicadas a problemas de ingeniería.</em></li>
+    <div class="box">
+      <h2>Cursos universitarios relevantes</h2>
+      <ul>
+        <li><strong>Cálculo I</strong> – Prof. Meyber Yuliana Vargas Maquera de Nuñez<br>
+        <em>Estudio de funciones, límites, derivadas e integrales aplicadas a problemas de ingeniería.</em></li>
+        <li><strong>Física I</strong> – Prof. Yessy Bertha Guillen Baca<br>
+        <em>Introducción a la mecánica clásica: movimiento, leyes de Newton, trabajo y energía.</em></li>
+        <li><strong>Fundamentos de Informática</strong> – Prof. Renzo Hernán Medina Zeballos<br>
+        <em>Uso de herramientas tecnológicas básicas, programación inicial y manejo de datos.</em></li>
+        <li><strong>Química II</strong> – Prof. Alejandro Noé Zegarra Balboa<br>
+        <em>Estudio de soluciones, equilibrio químico y propiedades de los compuestos.</em></li>
+        <li><strong>Antropología Filosófica y Teológica</strong> – Prof. Miriam Berrios Garaycochea<br>
+        <em>Reflexión sobre la persona humana desde una visión filosófica y trascendente.</em></li>
+        <li><strong>Lógica y Gnoseología</strong> – Prof. Yahaira Byrne Rivera<br>
+        <em>Análisis del pensamiento lógico y teoría del conocimiento.</em></li>
+      </ul>
+    </div>
 
-      <li><strong>Física I</strong> – Prof. Yessy Bertha Guillen Baca<br>
-      <em>Introducción a la mecánica clásica: movimiento, leyes de Newton, trabajo y energía.</em></li>
+    <div class="box">
+      <h2>Idiomas</h2>
+      <ul>
+        <li><strong>Inglés – Intermedio</strong><br>
+        <em>Estudiado durante mi formación escolar. Lo utilizo en actividades académicas y me permite comunicarme en diferentes contextos.</em></li>
+        <li><strong>Francés – Básico</strong><br>
+        <em>Estudiado en la Alianza Francesa. Es un idioma que me gusta mucho y en el que deseo seguir avanzando.</em></li>
+      </ul>
+    </div>
 
-      <li><strong>Fundamentos de Informática</strong> – Prof. Renzo Hernán Medina Zeballos<br>
-      <em>Uso de herramientas tecnológicas básicas, programación inicial y manejo de datos.</em></li>
+    <div class="box">
+      <h2>Fortalezas</h2>
+      <ul>
+        <li><strong>Responsabilidad</strong> – Cumplo con mis tareas y compromisos de forma puntual y ordenada.</li>
+        <li><strong>Comunicación</strong> – Me expreso con claridad y respeto en distintos entornos.</li>
+        <li><strong>Liderazgo</strong> – Me gusta guiar y motivar a los demás para lograr objetivos en equipo.</li>
+      </ul>
+    </div>
 
-      <li><strong>Química II</strong> – Prof. Alejandro Noé Zegarra Balboa<br>
-      <em>Estudio de soluciones, equilibrio químico y propiedades de los compuestos.</em></li>
+    <div class="box">
+      <h2>Valores personales</h2>
+      <ul>
+        <li><strong>Compromiso</strong> – Me entrego con dedicación a lo que hago.</li>
+        <li><strong>Perseverancia</strong> – Sigo adelante a pesar de las dificultades.</li>
+        <li><strong>Honestidad</strong> – Actúo con sinceridad y transparencia.</li>
+        <li><strong>Respeto</strong> – Valoro a las personas y sus ideas.</li>
+      </ul>
+    </div>
 
-      <li><strong>Antropología Filosófica y Teológica</strong> – Prof. Miriam Berrios Garaycochea<br>
-      <em>Reflexión sobre la persona humana desde una visión filosófica y trascendente.</em></li>
+    <div class="box">
+      <h2>Contacto directo</h2>
+      <p>Si deseas saber más de mí o de mis datos de contacto, completa el formulario:</p>
+      <form action="https://formspree.io/f/xjkrreeo" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="name" required>
 
-      <li><strong>Lógica y Gnoseología</strong> – Prof. Yahaira Byrne Rivera<br>
-      <em>Análisis del pensamiento lógico y teoría del conocimiento.</em></li>
-    </ul>
+        <label for="correo">¿Cuál es tu correo de contacto?</label>
+        <input type="email" id="correo" name="email" required>
 
-    <h2>Idiomas</h2>
-    <ul>
-      <li><strong>Inglés – Intermedio</strong><br>
-      <em>Estudiado durante mi formación escolar. Lo utilizo en actividades académicas y me permite comunicarme en diferentes contextos.</em></li>
+        <label for="mensaje">Déjame un mensaje:</label>
+        <textarea id="mensaje" name="message" required></textarea>
 
-      <li><strong>Francés – Básico</strong><br>
-      <em>Estudiado en la Alianza Francesa. Es un idioma que me gusta mucho y en el que deseo seguir avanzando.</em></li>
-    </ul>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
 
-    <h2>Fortalezas</h2>
-    <ul>
-      <li><strong>Responsabilidad</strong> – Cumplo con mis tareas y compromisos de forma puntual y ordenada.</li>
-      <li><strong>Comunicación</strong> – Me expreso con claridad y respeto en distintos entornos.</li>
-      <li><strong>Liderazgo</strong> – Me gusta guiar y motivar a los demás para lograr objetivos en equipo.</li>
-    </ul>
-
-    <h2>Valores personales</h2>
-    <ul>
-      <li><strong>Compromiso</strong> – Me entrego con dedicación a lo que hago.</li>
-      <li><strong>Perseverancia</strong> – Sigo adelante a pesar de las dificultades.</li>
-      <li><strong>Honestidad</strong> – Actúo con sinceridad y transparencia.</li>
-      <li><strong>Respeto</strong> – Valoro a las personas y sus ideas.</li>
-    </ul>
-
-      <section style="background-color: #FFC2D1; padding: 20px; border-radius: 10px; max-width: 600px; margin: 20px auto;">
-  <h2 style="color: #FB6F92;">Mis compañeros de universidad</h2>
-
-  <div style="background-color: #FFE5EC; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
-    <strong>Brenda Berenice Rojas Rodríguez</strong><br>
-    🌐 <a href="https://brenda-berenice-rojas-rodriguez.github.io/brendaberenicerojasrodriguez/" target="_blank">Visitar página</a><br>
-    🔗 <a href="https://pe.linkedin.com/in/brenda-berenice-rojas-rodr%C3%ADguez-797b07276" target="_blank">LinkedIn</a>
-  </div>
-
-  <div style="background-color: #FFE5EC; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
-    <strong>Piero Polar Salazar</strong><br>
-    🌐 <a href="https://crimsonkiller18.github.io/Piero-Polar-Salazar/" target="_blank">Visitar página</a><br>
-    🔗 <a href="https://pe.linkedin.com/in/piero-polar-salazar-7807b0357" target="_blank">LinkedIn</a>
-  </div>
-
-  <div style="background-color: #FFE5EC; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
-    <strong>Arianna Aylin Arenas Zevallos</strong><br>
-    🌐 <a href="https://ariannaarenas.github.io/ariannaaylinarenaszevallos/" target="_blank">Visitar página</a><br>
-    🔗 <a href="https://linkedin.com/in/arianna-aylin-arenas-zevallos-15a203357" target="_blank">LinkedIn</a>
-  </div>
-
-  <div style="background-color: #FFE5EC; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
-    <strong>Pedro Fabian Zahir Flores Gutierrez</strong><br>
-    🌐 <a href="https://pedro191102.github.io/Pedro-Fabian-Zahir-Flores-Gutierrez/" target="_blank">Visitar página</a><br>
-    🔗 <a href="https://www.linkedin.com/in/pedro-f-z-flores-guti%C3%A9rrez-415753365/?originalSubdomain=pe" target="_blank">LinkedIn</a>
-  </div>
-
-  <div style="background-color: #FFE5EC; padding: 10px; border-radius: 5px; margin-bottom: 10px;">
-    <strong>Jesús Franklin Hilarión Gallegos</strong><br>
-    🌐 <a href="https://franklinhilarion.github.io/franklinhilarion/" target="_blank">Visitar página</a><br>
-    🔗 <a href="https://www.linkedin.com/in/franklin-hilari%C3%B3n/" target="_blank">LinkedIn</a>
-  </div>
-</section>
-    <h2>Contacto</h2>
-    <p>
-      📧 <a href="mailto:nicolerodriguez131102@gmail.com">nicolerodriguez131102@gmail.com</a><br>
-      🔗 <a href="https://www.linkedin.com/in/nicole-rodriguez-alvarez-7438a22b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn: Nicole Rodriguez Alvarez</a>
-    </p>
-
-    <h2>Contacto directo</h2>
-    <p>Si deseas saber más de mí o de mis datos de contacto, completa el formulario:</p>
-
-<form action="https://formspree.io/f/xjkrreeo" method="POST">
-<form action="https://formspree.io/f/xjkrreeo" method="POST">
-  <label for="nombre">Nombre:</label>
-  <input type="text" id="nombre" name="name" required>
-
-  <label for="correo">¿Cuál es tu correo de contacto?</label>
-  <input type="email" id="correo" name="email" required>
-
-  <label for="mensaje">Déjame un mensaje:</label>
-  <textarea id="mensaje" name="message" required></textarea>
-
-  <input type="submit" value="Enviar">
-</form>
+    <div class="box">
+      <h2>Mis compañeros de universidad</h2>
+      <div class="amigo-card">
+        <strong>Brenda Berenice Rojas Rodríguez</strong><br>
+        🌐 <a href="https://brenda-berenice-rojas-rodriguez.github.io/brendaberenicerojasrodriguez/" target="_blank">Visitar página</a><br>
+        🔗 <a href="https://pe.linkedin.com/in/brenda-berenice-rojas-rodr%C3%ADguez-797b07276" target="_blank">LinkedIn</a>
+      </div>
+      <div class="amigo-card">
+        <strong>Piero Polar Salazar</strong><br>
+        🌐 <a href="https://crimsonkiller18.github.io/Piero-Polar-Salazar/" target="_blank">Visitar página</a><br>
+        🔗 <a href="https://pe.linkedin.com/in/piero-polar-salazar-7807b0357" target="_blank">LinkedIn</a>
+      </div>
+      <div class="amigo-card">
+        <strong>Arianna Aylin Arenas Zevallos</strong><br>
+        🌐 <a href="https://ariannaarenas.github.io/ariannaaylinarenaszevallos/" target="_blank">Visitar página</a><br>
+        🔗 <a href="https://linkedin.com/in/arianna-aylin-arenas-zevallos-15a203357" target="_blank">LinkedIn</a>
+      </div>
+      <div class="amigo-card">
+        <strong>Pedro Fabian Zahir Flores Gutierrez</strong><br>
+        🌐 <a href="https://pedro191102.github.io/Pedro-Fabian-Zahir-Flores-Gutierrez/" target="_blank">Visitar página</a><br>
+        🔗 <a href="https://www.linkedin.com/in/pedro-f-z-flores-guti%C3%A9rrez-415753365/?originalSubdomain=pe" target="_blank">LinkedIn</a>
+      </div>
+      <div class="amigo-card">
+        <strong>Jesús Franklin Hilarión Gallegos</strong><br>
+        🌐 <a href="https://franklinhilarion.github.io/franklinhilarion/" target="_blank">Visitar página</a><br>
+        🔗 <a href="https://www.linkedin.com/in/franklin-hilari%C3%B3n/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
   </section>
 
   <footer>
